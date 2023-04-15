@@ -154,7 +154,7 @@
         color: var(--primaryFont);
       }
 
-      .project button {
+      .project a.button {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -174,12 +174,12 @@
         cursor: pointer;
       }
 
-      button a {
+      a.button {
         text-decoration: none;
         color: var(--brightFont) !important;
       }
-      .project button:not(#coming-soon):hover,
-      .project button:not(#coming-soon):active {
+      .project a.button:not(#coming-soon):hover,
+      .project a.button:not(#coming-soon):active {
         background: var(--hoverBtn);
       }
 
@@ -227,13 +227,13 @@
         .project h2 {
           font-size: 20px;
         }
-        .project button,
+        .project a.button,
         .contact-me,
         .project p,
         #contactme {
           font-size: 14px;
         }
-        .project button {
+        .project a.button {
           padding: 14px 30px;
         }
       }
@@ -247,13 +247,13 @@
           font-size: 16px;
         }
 
-        .project button,
+        .project a.button,
         .contact-me,
         .project p,
         #contactme {
           font-size: 12px;
         }
-        .project button {
+        .project a.button {
           padding: 14px 28px;
         }
         #coming-soon{
@@ -287,13 +287,11 @@
             Built a stunning landing page for a restaurant using HTML and CSS.
             Project was based on a Figma UI design file.
           </p>
-          <button>
-            <a
+            <a class="button"
               href="https://github.com/MoIbrahim10/Escarole-Exquisite-Restaurant"
               target="_blank"
               >View Project</a
             >
-          </button>
         </div>
         <div class="project">
           <h2>Clinic Management System</h2>
@@ -301,13 +299,13 @@
             Implemented a clinic management system using Node.js, MongoDB, and
             Express.
           </p>
-          <button>
-            <a
+
+            <a class="button"
               href="https://github.com/MoIbrahim10/Clinic-Management-System"
               target="_blank"
               >View Project</a
             >
-          </button>
+
         </div>
         <div class="project">
           <h2>Attendance Management System</h2>
@@ -315,13 +313,13 @@
             Developed an attendance management system using HTML, CSS,
             JavaScript, Bootstrap, and jQuery.
           </p>
-          <button>
-            <a
+
+            <a class="button"
               href="https://github.com/MoIbrahim10/Attendance-Management-system"
               target="_blank"
               >View Project</a
             >
-          </button>
+
         </div>
         <div class="project">
           <h2>Online Examination System</h2>
